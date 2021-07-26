@@ -2,6 +2,7 @@
 #include <pybind11/stl.h>   // included to handle vector params type mismatch corectly
 #include <pybind11/numpy.h> // included get ppybind11::array
 #include "franklib.hpp"
+#include <vector>
 
 namespace py = pybind11;
 
